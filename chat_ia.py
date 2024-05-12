@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-google_api_key = 'AIzaSyBAyX79eUpFZvBxaN3W5YufoPWyNVKcHPA'
+google_api_key = 'AIzaSyBAyX79eUpFZvBxaN3W5YufoPWyNVKcHPA' # como eu subi para o Github, API foi apagada e não corre o risco de segurança.
 
 def retorna_resposta_modelo(mensagens,
                             google_api_key,
